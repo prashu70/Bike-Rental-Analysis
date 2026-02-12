@@ -48,13 +48,7 @@ env/
 # Data
 *.csv
 !requirements.txt
-data/raw/
 data/processed/
-
-# Models
-models/*.pkl
-models/*.h5
-models/*.joblib
 
 # Reports
 reports/figures/
