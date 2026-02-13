@@ -1,136 +1,130 @@
-# Bike-Rental-Analysis
+# 🚴‍♂️ Bike Rental Analysis & Prediction
 
-A data-driven **bike rental demand analysis and prediction** project using Python and Jupyter Notebook.  
-This project explores historical bike rental data to identify usage patterns, perform exploratory data analysis (EDA), visualize key relationships, and build machine learning models to predict bike rental demand.
+**A data-driven bike rental demand analysis and prediction project** deployed as an interactive dashboard using **Streamlit**.
 
----
-
-## 🚴 Project Overview
-
-The goal of this project is to understand the factors that influence bike rental demand, such as **weather conditions, seasons, and time-based features**, and to build predictive models that estimate the number of bike rentals.
-
-This analysis helps demonstrate practical skills in **data analysis, visualization, and machine learning modeling**.
+🔗 **Live Demo:** https://bike-rental-analysis-prashu.streamlit.app/
 
 ---
 
-## 📊 Key Objectives
+## 📌 Project Summary
 
-- Perform **Exploratory Data Analysis (EDA)** to understand trends and patterns
-- Clean and preprocess raw data
-- Engineer meaningful features
-- Build and evaluate machine learning models
-- Analyze model performance using standard regression metrics
+This project explores historical bike rental data to uncover usage patterns and build predictive models that estimate bike rental demand. It showcases skills in **exploratory data analysis (EDA)**, **feature engineering**, **visualization**, and **machine learning modeling**.
 
 ---
 
-## 🔍 Key Features
+## 🎯 Key Objectives
 
-- Data cleaning and preprocessing
-- Statistical analysis and correlation study
-- Visualizations using Matplotlib and Seaborn
-- Machine learning models for demand prediction
-- Model evaluation using RMSE, MAE, and R² score
+- Perform Exploratory Data Analysis to identify trends and insights  
+- Clean and preprocess raw dataset  
+- Engineer meaningful features  
+- Build and evaluate Machine Learning models for prediction  
+- Compare model performance using regression metrics
 
 ---
 
-## 🗂 Project Structure
+## 📈 Features
+
+- 🔍 Data cleaning & preprocessing  
+- 📊 Visualizations using **Matplotlib** & **Seaborn**  
+- 🤖 Machine learning models (e.g., Linear Regression, Random Forest)  
+- 📉 Model evaluation using RMSE, MAE, and R² score  
+- 🌐 Deployed interactive dashboard
+
+---
+
+## 🧱 Project Structure
 
 ```
 Bike-Rental-Analysis/
-│
-├── data/                # Dataset files
-├── notebooks/           # Jupyter notebooks for EDA and modeling
-├── visuals/             # Generated plots and charts
-├── requirements.txt     # Project dependencies
-├── LICENSE              # License file
+├── data/                # Raw and processed datasets
+├── notebooks/           # EDA & Modeling notebooks
+├── visuals/             # Saved plots and charts
+├── requirements.txt     # Python dependencies
+├── LICENSE              # License
 └── README.md            # Project documentation
 ```
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Jupyter Notebook
-
----
-
-## 📈 Workflow
-
-1. Data loading and inspection  
-2. Exploratory Data Analysis (EDA)  
-3. Feature engineering and transformation  
-4. Model training and prediction  
-5. Performance evaluation and insights  
+- Python 🐍  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
+- Streamlit (for deployment) 🚀
 
 ---
 
-## 📌 Dataset Description
+## 🚀 Deployment
 
-The dataset contains historical bike rental information along with environmental and temporal features such as:
+This app is deployed using **Streamlit Cloud**.
 
-- Date
-- Season
-- Weather conditions
-- Temperature and humidity
+👉 Visit the live app here:  
+**https://bike-rental-analysis-prashu.streamlit.app/**
+
+💡 If you see a login page instead of the app, make sure the app is set to **Public** in your Streamlit settings.
+
+---
+
+## 🧠 Workflow
+
+1. Load and inspect data  
+2. Perform Exploratory Data Analysis (EDA)  
+3. Feature engineering  
+4. Train and evaluate machine learning models  
+5. Deploy the model with a Streamlit dashboard
+
+---
+
+## 📊 Dataset Description
+
+The dataset includes historical bike rental information with key features such as:
+- Date  
+- Season  
+- Weather conditions  
+- Temperature and humidity  
 - Rental count (target variable)
 
 ---
 
-## 📊 Model Evaluation
+## 📌 Model Evaluation Metrics
 
-The performance of the models is evaluated using:
-
-- **R² Score**
-- **Root Mean Squared Error (RMSE)**
+We evaluate with:
+- **R² Score**  
+- **Root Mean Squared Error (RMSE)**  
 - **Mean Absolute Error (MAE)**
 
 ---
 
-## 🚀 How to Run the Project
+## 🧪 How to Run Locally
 
-1. Clone the repository:
+1. Clone the repository  
    ```bash
    git clone https://github.com/prashu70/Bike-Rental-Analysis.git
    ```
-
-2. Install required libraries:
+2. Install dependencies  
    ```bash
    pip install -r requirements.txt
    ```
-
-3. Open Jupyter Notebook:
+3. Start Jupyter Notebook  
    ```bash
    jupyter notebook
    ```
-
-4. Run the notebooks inside the `notebooks/` directory.
-
----
-
-## 📦 License
-
-This project is licensed under the **Apache-2.0 License**.  
-See the `LICENSE` file for more details.
+4. Explore notebooks in the `notebooks/` folder.
 
 ---
 
-## 🤝 Contributing
+## 📄 License
 
-Contributions, suggestions, and improvements are welcome.  
-Feel free to open an issue or submit a pull request.
+This project is licensed under the **Apache-2.0 License**.
 
 ---
 
-## 👤 Author
+## 🧑‍💻 Author
 
 **Prasanth Kumar**  
-Data Science & Machine Learning Engineer - Full Stack Developer
----
+Data Science & Machine Learning Engineer – Full Stack Developer  
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ If you find this project useful, please give it a star!
